@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,4 +8,153 @@ html,
 body {
   height: 100%;
   width: 100%;
+} */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:"Gilroy";
+}
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+#page4{
+  height: 100vh;
+  width: 100%;
+
+}
+#page4 .p4-top{
+  height: 45%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#page4 .p4-top .p4-top-container{
+  height: 75%;
+  width: 85%;
+  border-radius: 20px;
+  /* background-color: rgba(231, 231, 231, 0.426); */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* background-image: url(https://framerusercontent.com/images/R4WcLBnYnT6NT4hXim6Yt0uUz0.jpg); */
+  background-size: cover;
+}
+#page4 .p4-top .p4-top-container .p4-box{
+  height: 80%;
+  width: 20%;
+  background-color: rgba(255, 255, 255, 0.544);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2vw;
+}
+#page4 .p4-top .p4-top-container .p4-box img{
+  width: 5vw;
+}
+#page4 .p4-top .p4-top-container .p4-box h3{
+  font-size: 1.5vw;
+  width: 30vw;
+}
+#page4 .p4-top .p4-top-container .p4-box p{
+  font-size: 1vw;
+}
+#page4 .p4-bot{
+  height: 55%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#page4 .p4-bot .p4-bot-container{
+  height: 100%;
+  width: 85%;
+  border-radius: 20px;
+  /* background-color: rgb(129, 129, 129); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5vw;
+  background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/06/Light-Blue-HD-Backgrounds-Free-Download.jpg);
+  background-color: rgb(0, 117, 190);
+  color: white;
+  background-size: cover;
+}
+#page4 .p4-bot .p4-bot-container .p4-bot-left{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+#page4 .p4-bot .p4-bot-container .p4-bot-right{
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  justify-content: center;
+}
+#page4 .p4-bot .p4-bot-container .p4-bot-left h1{
+  font-size: 6vw;
+  line-height: 5vw;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-family:"Gilroy";
+  /* background: -webkit-linear-gradient(#ffffff, rgb(23, 0, 136));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+
+}
+#page4 .p4-bot .p4-bot-container .p4-bot-left h4{
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin: 2vh;
+  
+}
+#page4 .p4-bot .p4-bot-container .p4-img{
+  /* height: 200%; */
+  display: flex;
+  align-items: start;
+  position: absolute;
+  left: 30%;
+  top: 38%;
+  /* background-color: red; */
+}
+#page4 .p4-bot .p4-bot-container .p4-img img{
+  width: 30vw;
+  /* rotate: 10deg; */
+}
+#page4 .p4-bot .p4-bot-container .p4-bot-right h1{
+  font-size: 3vw;
+  width: 200%;
+  color: #305777;
+}
+#page4 .p4-bot .p4-bot-container .p4-bot-right h4{
+  color: #305777;
+
+}
+#page4 .p4-bot .p4-bot-container .p4-bot-right p{
+  width: 100%;
+  color: #305777;
+  font-weight: 500;
+  font-size: .9rem;
+  letter-spacing: .5px;
+}
+#page4 .p4-bot .p4-bot-container .p4-bot-right .btn{
+  margin-top: 3vh;
+  background-color: white;
+  color: #305777;
+  height: 5vh;
+  width: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  font-weight: 700;
 }
