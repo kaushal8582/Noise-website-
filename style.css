@@ -1,7 +1,7 @@
 
 @font-face {
   font-family: "Noise";
-  src: url('site-wise-font-noise.woff2');
+  src: url('/site-wise-font-noise.woff2');
 }  
 *{
   padding: 0;
